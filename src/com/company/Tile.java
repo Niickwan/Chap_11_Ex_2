@@ -9,6 +9,22 @@ public class Tile {
         this.letter = letter;
     }
 
+    public int getValue(){
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public char getLetter(){
+        return letter;
+    }
+
+    public void setLetter(char letter) {
+        this.letter = letter;
+    }
+
     public String toString() {
         return "Tile: " + this.letter + " is " + this.value + " points";
     }

@@ -15,6 +15,9 @@ public class Main {
         printTile(tile3);
         System.out.println(tile.equals(tile2));
         System.out.println(tile2.equals(tile3));
-
+        System.out.println(tile.getLetter());
+        System.out.println(tile3.getLetter());
+        tile3.setLetter('w');
+        System.out.println(tile3.getLetter());
     }
 }
